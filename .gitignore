@@ -1,0 +1,37 @@
+# dependencies
+node_modules
+
+# build output
+out
+dist
+*.tgz
+
+# coverage
+coverage
+*.lcov
+
+# logs
+logs
+*.log
+
+# secrets / env
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.local
+
+# local SQLite database
+data
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IDE / OS
+.idea
+.DS_Store
+e2e/.builds
+test-results
+playwright-report

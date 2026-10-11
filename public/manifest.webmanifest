@@ -1,0 +1,17 @@
+{
+  "name": "today",
+  "short_name": "today",
+  "description": "The Now layer above Linear + Google Calendar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
